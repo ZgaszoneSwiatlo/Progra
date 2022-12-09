@@ -1,0 +1,7 @@
+<!--   --> : permet d'ajouter un commentaire pour les humains
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> = pour mieux visualiser sur les mobiles
+
+../ veut dire que je sors du folder 
+
+
+boucle -> while
