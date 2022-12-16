@@ -6,7 +6,7 @@ function setup() {
 }
 
 function draw() {
-  background(255);
+  background(20);
   image(degwade, 0, 0, width, height);
 }
 
@@ -46,8 +46,9 @@ function circularGradiant(w, h, r1, v1, b1, r2, v2, b2) {
       let blue = map(compteur, 0, height, b1, b2);
 
   graphic.fill(red, green, blue);
-  graphic.Stroke(0,1); //à l'interiere de degwade je veux stroke
-  graphic.rotate(0, 1)
+  graphic.stroke(0,1); //à l'interiere de degwade je veux stroke
+  graphic.rotate(0, 1);
+  graphic.ellipse(0, 0, height-compteur, height-compteur);
    }
   return graphic;
 }
